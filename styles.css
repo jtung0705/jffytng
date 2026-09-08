@@ -1,0 +1,90 @@
+:root {
+	color: #fff;
+	background: #000;
+	font-family: Arial, sans-serif;
+	line-height: 1.5;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+main {
+	width: min(680px, calc(100% - 40px));
+	min-height: 100vh;
+	padding: 18vh 0 48px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+
+h1,
+h2,
+p {
+	margin-top: 0;
+}
+
+h1 {
+	margin-bottom: 18px;
+	font-size: clamp(3rem, 10vw, 5.5rem);
+	font-family: Arial, sans-serif;
+	font-weight: 400;
+	letter-spacing: -0.04em;
+	line-height: 0.95;
+}
+
+
+section {
+	padding-top: 18px;
+}
+
+h2 {
+	margin-bottom: 8px;
+	font: normal 1rem/1.5 Arial, sans-serif;
+}
+
+section p {
+	margin-bottom: 42px;
+}
+
+.projects {
+	margin-top: 120px;
+}
+
+.project {
+	display: block;
+	text-decoration: none;
+}
+
+.project img {
+	display: block;
+	width: 100%;
+	height: auto;
+	border: 1px solid #fff;
+}
+
+.project span {
+	display: block;
+	margin-top: 12px;
+}
+
+.project p {
+	margin: 4px 0 0;
+}
+
+nav {
+	display: flex;
+	gap: 24px;
+	justify-content: center;
+}
+
+a {
+	color: inherit;
+	text-underline-offset: 4px;
+}
+

@@ -1,49 +1,51 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
-  <title>COGS3 - Dice Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The portfolio of Jeffrey Tung, a designer and developer.">
+  <title>Jeffery Tung | Portfolio</title>
   <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Caacupe+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
+  <main>
+    <p>Portfolio</p>
+    <h1>Jeffery Tung</h1>
+    <p class="intro">COGS 3 Student!</p>
 
-  <div class="container">
-    <!-- Reports the values of the die and the sum -->
-    <h1>Let's Roll the Dice!</h1>
+    <section aria-labelledby="about-heading">
+      <h2 id="about-heading">About</h2>
+      <p>Chill black and white portfolio!</p>
+    </section>
 
-    <!-- Reports the outcome of the bet -->
-    <h2>
-      If the dice add to anything above 9, you win $5! <br>
-      If the dice add to 5 or less, I win $5. <br>
-      Ready to play?
-    </h2>
+    <nav aria-label="Contact links">
+      <a href="mailto:jtung0705@gmail.com">Email</a>
+      <a href="https://github.com/jtung0705">GitHub</a>
+      <a href="https://linkedin.com/in/jefferytung">LinkedIn</a>
+      <a href="TungJefferyResume.pdf">Resume</a>
+    </nav>
 
-    <!-- JS will input the content -->
-    <h3></h3>
-
-    <div>
-      <p>How many rolls will you play?</p>
-      <button class="myBtn" onclick="letsPlay()">Let's Play</button>
-    </div>
-
-    <div class="dice">
-      <img class="img1" src="images/dice6.png">
-    </div>
-
-    <div class="dice">
-      <img class="img2" src="images/dice6.png">
-    </div>
-  </div>
-
-  <footer>
-    COGS3 - Dice Game BET 10 - j7tung@ucsd.edu - 09/07/2026
-  </footer>
-
-  <script src="index.js" charset="utf-8"></script>
-
+    <section class="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects</h2>
+      <a class="project" href="https://www.kpucsd.com/about">
+        <img src="https://image.thum.io/get/width/1200/crop/800/https://www.kpucsd.com/about" alt="Screenshot ofk p website">
+        <span>Kaibigang Pilipino website</span>
+        <p>A responsive website built for UCSD's Kaibigang Pilipino club.</p>
+      </a>
+      <a class="project" href="diceGame.png">
+        <img src="diceGame.png" alt="DG ss">
+        <span>Dice Game</span>
+        <p>A game created for COGS 3.</p>
+      </a>
+      <a class="project" href="notepad.png">
+        <img src="notepad.png" alt="notepad app ss">
+        <span>Notepad</span>
+        <p>A simple notepad app created for CSE 101.</p>
+      </a>
+    </section>
+  </main>
 </body>
 
 </html>
